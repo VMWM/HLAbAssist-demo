@@ -1,0 +1,6 @@
+# HLAbAssist is a research prototype — not intended for public/search discovery.
+# This file discourages well-behaved crawlers from indexing the staging site.
+# (Not a security boundary; adversaries ignore robots.txt. Use it only as a signal.)
+
+User-agent: *
+Disallow: /
