@@ -1,0 +1,9209 @@
+{
+  "description": "Outcome-attributed rule heatmap: rules that explain TP/FP outcomes",
+  "cases": [
+    "AC-540",
+    "AC-542",
+    "AC-543",
+    "AC-544",
+    "AC-545",
+    "AC-546",
+    "AC-547",
+    "AC-549",
+    "AC-550",
+    "AC-551",
+    "AC-552",
+    "AC-553",
+    "AC-556",
+    "AC-557",
+    "AC-558",
+    "AC-559",
+    "AC-560",
+    "AC-561",
+    "AC-562",
+    "AC-563",
+    "AC-564",
+    "AC-565",
+    "AC-566",
+    "AC-567",
+    "AC-568",
+    "AC-569",
+    "AC-570",
+    "AC-572",
+    "AC-573",
+    "AC-574",
+    "AC-575",
+    "AC-576",
+    "AC-577",
+    "AC-578",
+    "AC-579",
+    "Case 1 Ser-07",
+    "Case 10 single",
+    "Case 11 current",
+    "Case 11 historic",
+    "Case 12 single",
+    "Case 13 single",
+    "Case 14 single",
+    "Case 15 single",
+    "Case 2 Ser-08",
+    "Case 3 single",
+    "Case 5 single",
+    "Case 6 current",
+    "Case 6 historic"
+  ],
+  "rules": [
+    "GATE_COVERAGE_001",
+    "GATE_PATTERN_001",
+    "RULE_ALLELE_SPECIFIC_UA_001",
+    "RULE_ALPHA_CHAIN_INFERENCE_001",
+    "RULE_ALPHA_CHAIN_INFERENCE_002",
+    "RULE_ARTIFACT_DETECTION_001",
+    "RULE_ASSAY_QC_003",
+    "RULE_BROAD_GROUP_DETECTION_001",
+    "RULE_CDP_BORDERLINE_001",
+    "RULE_CLASS_II_CHAIN_001",
+    "RULE_CONFIDENCE_SCORING_001",
+    "RULE_CREG_STACKING_CROSS_PANEL_001",
+    "RULE_DEADZONE_DSA_RESCUE_001",
+    "RULE_DQ_SEROLOGIC_001",
+    "RULE_DRB345_HAPLOTYPE_001",
+    "RULE_DSA_MATCHING_001",
+    "RULE_EPITOPE_CREG_001",
+    "RULE_EPITOPE_DP_001",
+    "RULE_EPLET_CONTEXT_001",
+    "RULE_EPLET_SIMILARITY_001",
+    "RULE_EPLET_SPREADING_001",
+    "RULE_HATS_EXPANSION_001",
+    "RULE_HATS_QUALIFIER_001",
+    "RULE_HOT_BEAD_001",
+    "RULE_INTERPRET_SAB_MULTI_RUN_001",
+    "RULE_LOW_RR_BELOW_NC_001",
+    "RULE_MFI_DETECTION_001",
+    "RULE_MFI_DETECTION_002",
+    "RULE_MFI_THRESHOLD_001",
+    "RULE_PANEL_COMPOSITION_001",
+    "RULE_PANEL_GAP_SURROGATE_001",
+    "RULE_PLATFORM_CONCORDANCE_001",
+    "RULE_PROFILE_RESOLUTION_001",
+    "RULE_PUBLIC_EPITOPE_BW_001",
+    "RULE_REFERENCE_DATA_EXPANSION_001",
+    "RULE_REPORTING_DRBFIRSTFIELD_001",
+    "RULE_RISK_FLAG_GENERATION_001",
+    "RULE_SAB_PATTERN_001",
+    "RULE_SNR_ADAPTIVE_RESCUE_001",
+    "RULE_SPECIFICITY_RESOLUTION_001",
+    "RULE_SPLIT_STACKING_001",
+    "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001",
+    "RULE_TEMPORAL_CLASSIFICATION_001",
+    "RULE_VENDOR_WERFEN_001",
+    "RULE_VXM_BCELL_001",
+    "RULE_VXM_TCELL_001"
+  ],
+  "matrix": {
+    "AC-540": {
+      "GATE_COVERAGE_001": {
+        "TP": 53,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 37,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 53,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 21,
+        "FP": 0
+      }
+    },
+    "AC-542": {
+      "GATE_COVERAGE_001": {
+        "TP": 51,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 52,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 29,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 52,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 52,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 23,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 56,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 56,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 31,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 71,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 29,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 51,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 51,
+        "FP": 0
+      }
+    },
+    "AC-543": {
+      "GATE_COVERAGE_001": {
+        "TP": 107,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 65,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 81,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 52,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 118,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 65,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 21,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 65,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 44,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 116,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 99,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 118,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 118,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 118,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 104,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 118,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 52,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 107,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 75,
+        "FP": 0
+      }
+    },
+    "AC-544": {
+      "GATE_COVERAGE_001": {
+        "TP": 71,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 22,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 51,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 51,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 31,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 71,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 34,
+        "FP": 0
+      }
+    },
+    "AC-545": {
+      "GATE_COVERAGE_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 46,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 43,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 46,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 43,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 46,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 33,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 44,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 72,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 43,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 59,
+        "FP": 0
+      }
+    },
+    "AC-546": {
+      "GATE_COVERAGE_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 56,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 54,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 56,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 56,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 31,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 72,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 55,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 72,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 54,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 41,
+        "FP": 0
+      }
+    },
+    "AC-547": {
+      "GATE_COVERAGE_001": {
+        "TP": 76,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 69,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 29,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 53,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 69,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 55,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 69,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 69,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 53,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 69,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 38,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 69,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 76,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 39,
+        "FP": 0
+      }
+    },
+    "AC-549": {
+      "GATE_COVERAGE_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 28,
+        "FP": 0
+      }
+    },
+    "AC-550": {
+      "GATE_COVERAGE_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 21,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 9,
+        "FP": 0
+      }
+    },
+    "AC-551": {
+      "GATE_COVERAGE_001": {
+        "TP": 66,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 70,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 31,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 70,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 41,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 70,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 59,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 70,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 70,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 41,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 59,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 70,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 78,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 70,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 31,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 66,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 66,
+        "FP": 0
+      }
+    },
+    "AC-552": {
+      "GATE_COVERAGE_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 31,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 38,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 64,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 22,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 64,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 64,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 64,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 38,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 38,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 64,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 38,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 29,
+        "FP": 0
+      }
+    },
+    "AC-553": {
+      "GATE_COVERAGE_001": {
+        "TP": 141,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 99,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 107,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 84,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 150,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 99,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 101,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 99,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 53,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 137,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 138,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 150,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 150,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 101,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 150,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 133,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 150,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 84,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 141,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 103,
+        "FP": 0
+      }
+    },
+    "AC-556": {
+      "GATE_COVERAGE_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 19,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 37,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 31,
+        "FP": 0
+      }
+    },
+    "AC-557": {
+      "GATE_COVERAGE_001": {
+        "TP": 136,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 39,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 67,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 125,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 99,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 51,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 125,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 94,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 125,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 125,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 99,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 125,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 73,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 125,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 67,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 136,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 65,
+        "FP": 0
+      }
+    },
+    "AC-558": {
+      "GATE_COVERAGE_001": {
+        "TP": 78,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 56,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 29,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 87,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 46,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 80,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 87,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 87,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 87,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 51,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 87,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 29,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 78,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 51,
+        "FP": 0
+      }
+    },
+    "AC-559": {
+      "GATE_COVERAGE_001": {
+        "TP": 53,
+        "FP": 4
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 50,
+        "FP": 3
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 34,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 52,
+        "FP": 3
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 37,
+        "FP": 3
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 22,
+        "FP": 1
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 49,
+        "FP": 2
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 52,
+        "FP": 3
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 52,
+        "FP": 3
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 52,
+        "FP": 3
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 37,
+        "FP": 3
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 52,
+        "FP": 3
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 52,
+        "FP": 3
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 34,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 53,
+        "FP": 4
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 17,
+        "FP": 2
+      }
+    },
+    "AC-560": {
+      "GATE_COVERAGE_001": {
+        "TP": 76,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 34,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 38,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 50,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 33,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 49,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 34,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 76,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 36,
+        "FP": 0
+      }
+    },
+    "AC-561": {
+      "GATE_COVERAGE_001": {
+        "TP": 33,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 21,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 21,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 21,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 30,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 12,
+        "FP": 0
+      }
+    },
+    "AC-562": {
+      "GATE_COVERAGE_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 3
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 0,
+        "FP": 3
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 0,
+        "FP": 3
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 0,
+        "FP": 3
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 2
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 0,
+        "FP": 3
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 3
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 3
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 0,
+        "FP": 1
+      }
+    },
+    "AC-563": {
+      "GATE_COVERAGE_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 21,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 15,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 22,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 19,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 25,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 18,
+        "FP": 0
+      }
+    },
+    "AC-564": {
+      "GATE_COVERAGE_001": {
+        "TP": 62,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 39,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 60,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 57,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 40,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 44,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 74,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 62,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 62,
+        "FP": 0
+      }
+    },
+    "AC-565": {
+      "GATE_COVERAGE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 0,
+        "FP": 0
+      }
+    },
+    "AC-566": {
+      "GATE_COVERAGE_001": {
+        "TP": 112,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 98,
+        "FP": 2
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 106,
+        "FP": 2
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 80,
+        "FP": 1
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 131,
+        "FP": 2
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 98,
+        "FP": 2
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 79,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 98,
+        "FP": 2
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 42,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 131,
+        "FP": 2
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 125,
+        "FP": 2
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 131,
+        "FP": 2
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 131,
+        "FP": 2
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 80,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 81,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 131,
+        "FP": 2
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 115,
+        "FP": 2
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 131,
+        "FP": 2
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 80,
+        "FP": 1
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 112,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 95,
+        "FP": 0
+      }
+    },
+    "AC-567": {
+      "GATE_COVERAGE_001": {
+        "TP": 33,
+        "FP": 1
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 27,
+        "FP": 1
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 19,
+        "FP": 1
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 27,
+        "FP": 1
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 27,
+        "FP": 1
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 27,
+        "FP": 1
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 27,
+        "FP": 1
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 19,
+        "FP": 1
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 27,
+        "FP": 1
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 27,
+        "FP": 1
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 33,
+        "FP": 1
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 14,
+        "FP": 0
+      }
+    },
+    "AC-568": {
+      "GATE_COVERAGE_001": {
+        "TP": 48,
+        "FP": 2
+      },
+      "GATE_PATTERN_001": {
+        "TP": 55,
+        "FP": 1
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 59,
+        "FP": 1
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 59,
+        "FP": 1
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 55,
+        "FP": 1
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 31,
+        "FP": 1
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 55,
+        "FP": 1
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 22,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 56,
+        "FP": 1
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 56,
+        "FP": 1
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 59,
+        "FP": 1
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 59,
+        "FP": 1
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 31,
+        "FP": 1
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 28,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 59,
+        "FP": 1
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 60,
+        "FP": 2
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 59,
+        "FP": 1
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 48,
+        "FP": 2
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 48,
+        "FP": 2
+      }
+    },
+    "AC-569": {
+      "GATE_COVERAGE_001": {
+        "TP": 110,
+        "FP": 1
+      },
+      "GATE_PATTERN_001": {
+        "TP": 63,
+        "FP": 1
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 69,
+        "FP": 1
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 29,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 123,
+        "FP": 1
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 63,
+        "FP": 1
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 82,
+        "FP": 1
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 63,
+        "FP": 1
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 112,
+        "FP": 1
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 112,
+        "FP": 1
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 112,
+        "FP": 1
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 112,
+        "FP": 1
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 83,
+        "FP": 1
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 40,
+        "FP": 1
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 112,
+        "FP": 1
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 89,
+        "FP": 1
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 112,
+        "FP": 1
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 110,
+        "FP": 1
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 67,
+        "FP": 1
+      }
+    },
+    "AC-570": {
+      "GATE_COVERAGE_001": {
+        "TP": 14,
+        "FP": 1
+      },
+      "GATE_PATTERN_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 21,
+        "FP": 1
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 23,
+        "FP": 1
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 8,
+        "FP": 1
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 21,
+        "FP": 1
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 18,
+        "FP": 1
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 23,
+        "FP": 1
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 23,
+        "FP": 1
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 23,
+        "FP": 1
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 8,
+        "FP": 1
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 11,
+        "FP": 1
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 23,
+        "FP": 1
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 26,
+        "FP": 1
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 23,
+        "FP": 1
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 23,
+        "FP": 1
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 12,
+        "FP": 1
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 12,
+        "FP": 1
+      }
+    },
+    "AC-572": {
+      "GATE_COVERAGE_001": {
+        "TP": 147,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 67,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 136,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 84,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 168,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 67,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 104,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 67,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 66,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 164,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 80,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 168,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 168,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 168,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 105,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 40,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 168,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 112,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 168,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 84,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 168,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 142,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 81,
+        "FP": 0
+      }
+    },
+    "AC-573": {
+      "GATE_COVERAGE_001": {
+        "TP": 80,
+        "FP": 7
+      },
+      "GATE_PATTERN_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 2,
+        "FP": 2
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 52,
+        "FP": 4
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 16,
+        "FP": 2
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 74,
+        "FP": 6
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 10,
+        "FP": 2
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 55,
+        "FP": 5
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 26,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 64,
+        "FP": 6
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 7,
+        "FP": 1
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 13,
+        "FP": 2
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 68,
+        "FP": 6
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 68,
+        "FP": 6
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 68,
+        "FP": 6
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 2,
+        "FP": 2
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 55,
+        "FP": 5
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 68,
+        "FP": 6
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 63,
+        "FP": 2
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 68,
+        "FP": 6
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 68,
+        "FP": 6
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 78,
+        "FP": 6
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 60,
+        "FP": 6
+      }
+    },
+    "AC-574": {
+      "GATE_COVERAGE_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 37,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 32,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 37,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 22,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 27,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 36,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 45,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 58,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 21,
+        "FP": 0
+      }
+    },
+    "AC-575": {
+      "GATE_COVERAGE_001": {
+        "TP": 40,
+        "FP": 5
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 2,
+        "FP": 1
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 16,
+        "FP": 7
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 7,
+        "FP": 7
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 26,
+        "FP": 5
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 5,
+        "FP": 3
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 6,
+        "FP": 4
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 13,
+        "FP": 7
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 6,
+        "FP": 5
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 26,
+        "FP": 5
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 14,
+        "FP": 5
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 16,
+        "FP": 7
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 33,
+        "FP": 7
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 36,
+        "FP": 3
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 14,
+        "FP": 0
+      }
+    },
+    "AC-576": {
+      "GATE_COVERAGE_001": {
+        "TP": 134,
+        "FP": 1
+      },
+      "GATE_PATTERN_001": {
+        "TP": 54,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 7,
+        "FP": 1
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 68,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 63,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 54,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 6,
+        "FP": 2
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 98,
+        "FP": 1
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 54,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 56,
+        "FP": 2
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 5,
+        "FP": 1
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 63,
+        "FP": 4
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 4,
+        "FP": 1
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 98,
+        "FP": 1
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 21,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 24,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 92,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 63,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 127,
+        "FP": 4
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 130,
+        "FP": 1
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 81,
+        "FP": 0
+      }
+    },
+    "AC-577": {
+      "GATE_COVERAGE_001": {
+        "TP": 52,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 48,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 44,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 48,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 48,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 23,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 59,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 17,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 35,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 22,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 66,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 44,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 61,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 52,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 44,
+        "FP": 0
+      }
+    },
+    "AC-578": {
+      "GATE_COVERAGE_001": {
+        "TP": 117,
+        "FP": 7
+      },
+      "GATE_PATTERN_001": {
+        "TP": 93,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 4,
+        "FP": 3
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 102,
+        "FP": 4
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 88,
+        "FP": 3
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 139,
+        "FP": 13
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 93,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 14,
+        "FP": 5
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 84,
+        "FP": 7
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 93,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 10,
+        "FP": 9
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 40,
+        "FP": 2
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 135,
+        "FP": 13
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 33,
+        "FP": 13
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 139,
+        "FP": 13
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 139,
+        "FP": 13
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 139,
+        "FP": 13
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 14,
+        "FP": 12
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 85,
+        "FP": 7
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 63,
+        "FP": 1
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 139,
+        "FP": 13
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 126,
+        "FP": 1
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 139,
+        "FP": 13
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 88,
+        "FP": 3
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 139,
+        "FP": 13
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 103,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 83,
+        "FP": 0
+      }
+    },
+    "AC-579": {
+      "GATE_COVERAGE_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 1
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 0,
+        "FP": 0
+      }
+    },
+    "Case 1 Ser-07": {
+      "GATE_COVERAGE_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 11,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 3,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 5,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 4,
+        "FP": 0
+      }
+    },
+    "Case 10 single": {
+      "GATE_COVERAGE_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 4,
+        "FP": 0
+      }
+    },
+    "Case 11 current": {
+      "GATE_COVERAGE_001": {
+        "TP": 91,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 90,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 91,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 91,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 1,
+        "FP": 0
+      }
+    },
+    "Case 11 historic": {
+      "GATE_COVERAGE_001": {
+        "TP": 91,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 90,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 91,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 91,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 1,
+        "FP": 0
+      }
+    },
+    "Case 12 single": {
+      "GATE_COVERAGE_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 6,
+        "FP": 0
+      }
+    },
+    "Case 13 single": {
+      "GATE_COVERAGE_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 4,
+        "FP": 0
+      }
+    },
+    "Case 14 single": {
+      "GATE_COVERAGE_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 2,
+        "FP": 0
+      }
+    },
+    "Case 15 single": {
+      "GATE_COVERAGE_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 13,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 1,
+        "FP": 0
+      }
+    },
+    "Case 2 Ser-08": {
+      "GATE_COVERAGE_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 18,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 12,
+        "FP": 0
+      }
+    },
+    "Case 3 single": {
+      "GATE_COVERAGE_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 1,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 2,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 1,
+        "FP": 0
+      }
+    },
+    "Case 5 single": {
+      "GATE_COVERAGE_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 4,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 7,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 14,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 9,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 2,
+        "FP": 0
+      }
+    },
+    "Case 6 current": {
+      "GATE_COVERAGE_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 6,
+        "FP": 0
+      }
+    },
+    "Case 6 historic": {
+      "GATE_COVERAGE_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "GATE_PATTERN_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_ALLELE_SPECIFIC_UA_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ALPHA_CHAIN_INFERENCE_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_ARTIFACT_DETECTION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_ASSAY_QC_003": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_BROAD_GROUP_DETECTION_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_CDP_BORDERLINE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CLASS_II_CHAIN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_CONFIDENCE_SCORING_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_CREG_STACKING_CROSS_PANEL_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_DEADZONE_DSA_RESCUE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DQ_SEROLOGIC_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_DRB345_HAPLOTYPE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_DSA_MATCHING_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPITOPE_CREG_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_EPITOPE_DP_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_CONTEXT_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_EPLET_SIMILARITY_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_EPLET_SPREADING_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_HATS_EXPANSION_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HATS_QUALIFIER_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_HOT_BEAD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_INTERPRET_SAB_MULTI_RUN_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_LOW_RR_BELOW_NC_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_001": {
+        "TP": 16,
+        "FP": 0
+      },
+      "RULE_MFI_DETECTION_002": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_MFI_THRESHOLD_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_PANEL_COMPOSITION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_PANEL_GAP_SURROGATE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PLATFORM_CONCORDANCE_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_PROFILE_RESOLUTION_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_PUBLIC_EPITOPE_BW_001": {
+        "TP": 8,
+        "FP": 0
+      },
+      "RULE_REFERENCE_DATA_EXPANSION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_REPORTING_DRBFIRSTFIELD_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_RISK_FLAG_GENERATION_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_SAB_PATTERN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_SNR_ADAPTIVE_RESCUE_001": {
+        "TP": 12,
+        "FP": 0
+      },
+      "RULE_SPECIFICITY_RESOLUTION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_SPLIT_STACKING_001": {
+        "TP": 6,
+        "FP": 0
+      },
+      "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_TEMPORAL_CLASSIFICATION_001": {
+        "TP": 20,
+        "FP": 0
+      },
+      "RULE_VENDOR_WERFEN_001": {
+        "TP": 0,
+        "FP": 0
+      },
+      "RULE_VXM_BCELL_001": {
+        "TP": 10,
+        "FP": 0
+      },
+      "RULE_VXM_TCELL_001": {
+        "TP": 6,
+        "FP": 0
+      }
+    }
+  },
+  "rule_tp_frequency": {
+    "GATE_COVERAGE_001": 45,
+    "RULE_DSA_MATCHING_001": 45,
+    "RULE_VXM_BCELL_001": 45,
+    "RULE_VXM_TCELL_001": 45,
+    "RULE_RISK_FLAG_GENERATION_001": 43,
+    "RULE_CONFIDENCE_SCORING_001": 41,
+    "RULE_MFI_DETECTION_001": 41,
+    "RULE_MFI_THRESHOLD_001": 41,
+    "RULE_PANEL_COMPOSITION_001": 41,
+    "RULE_PROFILE_RESOLUTION_001": 41,
+    "RULE_REFERENCE_DATA_EXPANSION_001": 41,
+    "RULE_SPECIFICITY_RESOLUTION_001": 41,
+    "RULE_EPLET_SPREADING_001": 40,
+    "RULE_EPLET_CONTEXT_001": 38,
+    "RULE_ARTIFACT_DETECTION_001": 38,
+    "RULE_BROAD_GROUP_DETECTION_001": 37,
+    "RULE_SPLIT_STACKING_001": 37,
+    "RULE_DQ_SEROLOGIC_001": 31,
+    "GATE_PATTERN_001": 29,
+    "RULE_CREG_STACKING_CROSS_PANEL_001": 29,
+    "RULE_EPITOPE_CREG_001": 29,
+    "RULE_PUBLIC_EPITOPE_BW_001": 28,
+    "RULE_HATS_QUALIFIER_001": 25,
+    "RULE_REPORTING_DRBFIRSTFIELD_001": 21,
+    "RULE_HOT_BEAD_001": 17,
+    "RULE_SAB_PATTERN_001": 17,
+    "RULE_ALLELE_SPECIFIC_UA_001": 14,
+    "RULE_SNR_ADAPTIVE_RESCUE_001": 12,
+    "RULE_EPLET_SIMILARITY_001": 11,
+    "RULE_CDP_BORDERLINE_001": 9,
+    "RULE_LOW_RR_BELOW_NC_001": 9,
+    "RULE_VENDOR_WERFEN_001": 9,
+    "RULE_MFI_DETECTION_002": 8,
+    "RULE_EPITOPE_DP_001": 8,
+    "RULE_CLASS_II_CHAIN_001": 7,
+    "RULE_PLATFORM_CONCORDANCE_001": 7,
+    "RULE_HATS_EXPANSION_001": 6,
+    "RULE_PANEL_GAP_SURROGATE_001": 4,
+    "RULE_ALPHA_CHAIN_INFERENCE_001": 2,
+    "RULE_ALPHA_CHAIN_INFERENCE_002": 2,
+    "RULE_INTERPRET_SAB_MULTI_RUN_001": 2,
+    "RULE_TEMPORAL_CLASSIFICATION_001": 2,
+    "RULE_DRB345_HAPLOTYPE_001": 1,
+    "RULE_ASSAY_QC_003": 1,
+    "RULE_SUBTHRESHOLD_BW_ENRICHMENT_001": 1,
+    "RULE_DEADZONE_DSA_RESCUE_001": 1
+  },
+  "rule_fp_frequency": {
+    "RULE_CONFIDENCE_SCORING_001": 13,
+    "RULE_MFI_THRESHOLD_001": 13,
+    "RULE_PANEL_COMPOSITION_001": 13,
+    "RULE_REFERENCE_DATA_EXPANSION_001": 13,
+    "RULE_SPECIFICITY_RESOLUTION_001": 13,
+    "GATE_COVERAGE_001": 11,
+    "RULE_DSA_MATCHING_001": 11,
+    "RULE_MFI_DETECTION_001": 11,
+    "RULE_PROFILE_RESOLUTION_001": 11,
+    "RULE_ARTIFACT_DETECTION_001": 10,
+    "RULE_EPLET_SPREADING_001": 10,
+    "RULE_VXM_BCELL_001": 9,
+    "RULE_RISK_FLAG_GENERATION_001": 7,
+    "RULE_VXM_TCELL_001": 6,
+    "RULE_PLATFORM_CONCORDANCE_001": 6,
+    "RULE_LOW_RR_BELOW_NC_001": 6,
+    "RULE_VENDOR_WERFEN_001": 6,
+    "RULE_EPLET_CONTEXT_001": 4,
+    "RULE_ALLELE_SPECIFIC_UA_001": 4,
+    "RULE_DQ_SEROLOGIC_001": 4,
+    "GATE_PATTERN_001": 3,
+    "RULE_BROAD_GROUP_DETECTION_001": 3,
+    "RULE_CREG_STACKING_CROSS_PANEL_001": 3,
+    "RULE_EPITOPE_CREG_001": 3,
+    "RULE_SPLIT_STACKING_001": 3,
+    "RULE_PUBLIC_EPITOPE_BW_001": 3,
+    "RULE_HATS_QUALIFIER_001": 3,
+    "RULE_SNR_ADAPTIVE_RESCUE_001": 2,
+    "RULE_HOT_BEAD_001": 1,
+    "RULE_SAB_PATTERN_001": 1,
+    "RULE_CLASS_II_CHAIN_001": 1,
+    "RULE_EPITOPE_DP_001": 1
+  },
+  "outcome_summary": {
+    "VXM_TN": 23,
+    "VXM_TP": 23,
+    "AbID_TP": 814,
+    "AbID_FN": 7,
+    "AbID_TN": 581,
+    "AbID_FP": 20,
+    "DSA_TP": 435,
+    "DSA_FN": 2,
+    "DSA_extra_not_graded": 32,
+    "DSA_extra_not_evaluated": 110,
+    "DSA_extra_below_threshold": 44,
+    "DSA_FP": 20,
+    "AC_VXM_TN": 145,
+    "AC_VXM_TP": 274,
+    "AC_VXM_FP": 4
+  },
+  "n_cases": 48,
+  "n_rules": 46,
+  "not_attributed": [
+    {
+      "id": "RULE_RELATIVE_RATIO_001",
+      "label": "Relative Ratio Rescue",
+      "category": "MFI Thresholds"
+    },
+    {
+      "id": "RULE_VENDOR_WERFEN_LRA_002",
+      "label": "Vendor Werfen LRA",
+      "category": "MFI Thresholds"
+    },
+    {
+      "id": "RULE_CUSTOM_MFI_OVERRIDE_001",
+      "label": "Custom MFI Override",
+      "category": "MFI Thresholds"
+    },
+    {
+      "id": "RULE_ASSAY_QC_001",
+      "label": "Positive Control QC",
+      "category": "Quality Control"
+    },
+    {
+      "id": "RULE_ASSAY_QC_002",
+      "label": "Negative Control QC",
+      "category": "Quality Control"
+    },
+    {
+      "id": "RULE_ARTIFACT_PREDICTED_NEG_001",
+      "label": "Predicted Negative",
+      "category": "Artifact Detection"
+    },
+    {
+      "id": "RULE_CLASS_II_HETERODIMER_001",
+      "label": "Class II Heterodimer",
+      "category": "Class II Chain"
+    },
+    {
+      "id": "RULE_DSA_HATS_GROUP_001",
+      "label": "DSA HATS Group",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_SELF_ANTIGEN_001",
+      "label": "Self-Antigen Filter",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_PAN_REACTIVE_LOCUS_001",
+      "label": "Pan-Reactive Locus",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_CEI_001",
+      "label": "Cumulative DSA Load",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_WEAK_DSA_RISK_001",
+      "label": "Weak DSA Risk",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_TEMPORAL_DSA_PARTITION_001",
+      "label": "Temporal DSA Partition",
+      "category": "Temporal"
+    },
+    {
+      "id": "GATE_ARTIFACT_001",
+      "label": "Gate Artifact",
+      "category": "Gates"
+    },
+    {
+      "id": "GATE_QUALITY_001",
+      "label": "Gate Quality",
+      "category": "Gates"
+    }
+  ]
+}
