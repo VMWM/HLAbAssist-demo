@@ -1,0 +1,66 @@
+{
+  "total_defined": 61,
+  "total_fired": 49,
+  "not_fired": [
+    {
+      "id": "RULE_RELATIVE_RATIO_001",
+      "label": "Relative Ratio Rescue",
+      "category": "MFI Thresholds"
+    },
+    {
+      "id": "RULE_VENDOR_WERFEN_LRA_002",
+      "label": "Vendor Werfen LRA",
+      "category": "MFI Thresholds"
+    },
+    {
+      "id": "RULE_CUSTOM_MFI_OVERRIDE_001",
+      "label": "Custom MFI Override",
+      "category": "MFI Thresholds"
+    },
+    {
+      "id": "RULE_PLATFORM_CONCORDANCE_001",
+      "label": "Platform Concordance",
+      "category": "MFI Thresholds"
+    },
+    {
+      "id": "RULE_ASSAY_QC_001",
+      "label": "Positive Control QC",
+      "category": "Quality Control"
+    },
+    {
+      "id": "RULE_DSA_HATS_GROUP_001",
+      "label": "DSA HATS Group",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_SELF_ANTIGEN_001",
+      "label": "Self-Antigen Filter",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_PAN_REACTIVE_LOCUS_001",
+      "label": "Pan-Reactive Locus",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_CEI_001",
+      "label": "Cumulative DSA Load",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_WEAK_DSA_RISK_001",
+      "label": "Weak DSA Risk",
+      "category": "DSA Prediction"
+    },
+    {
+      "id": "RULE_TEMPORAL_DSA_PARTITION_001",
+      "label": "Temporal DSA Partition",
+      "category": "Temporal"
+    },
+    {
+      "id": "GATE_QUALITY_001",
+      "label": "Gate Quality",
+      "category": "Gates"
+    }
+  ]
+}
