@@ -59,7 +59,7 @@
     },
     {
       "id": "GATE_QUALITY_001",
-      "label": "Gate Quality  [gate]",
+      "label": "Quality Check  [gate]",
       "category": "Gates"
     }
   ]
