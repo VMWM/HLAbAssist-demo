@@ -9,52 +9,52 @@
     },
     {
       "id": "RULE_VENDOR_WERFEN_LRA_002",
-      "label": "Vendor Werfen LRA  [PCI/CAF]",
+      "label": "Werfen Lot Normalization  [PCI/CAF]",
       "category": "MFI Thresholds"
     },
     {
       "id": "RULE_CUSTOM_MFI_OVERRIDE_001",
-      "label": "Custom MFI Override  [CAF]",
+      "label": "Lab-Specific Threshold Override  [CAF]",
       "category": "MFI Thresholds"
     },
     {
       "id": "RULE_PLATFORM_CONCORDANCE_001",
-      "label": "Platform Concordance  [PCI]",
+      "label": "Cross-Platform Concordance  [PCI]",
       "category": "MFI Thresholds"
     },
     {
       "id": "RULE_ASSAY_QC_001",
-      "label": "Positive Control QC  [APS]",
+      "label": "Weak Assay Downgrade  [APS]",
       "category": "Quality Control"
     },
     {
       "id": "RULE_DSA_HATS_GROUP_001",
-      "label": "DSA HATS Group  [SCS]",
+      "label": "HATS Serotype Group DSA Match  [SCS]",
       "category": "DSA Prediction"
     },
     {
       "id": "RULE_SELF_ANTIGEN_001",
-      "label": "Self-Antigen Filter  [SCS]",
+      "label": "Self-Antigen Exclusion  [SCS]",
       "category": "DSA Prediction"
     },
     {
       "id": "RULE_PAN_REACTIVE_LOCUS_001",
-      "label": "Pan-Reactive Locus  [SCS]",
+      "label": "Broad Sensitization Inference  [SCS]",
       "category": "DSA Prediction"
     },
     {
       "id": "RULE_CEI_001",
-      "label": "Cumulative DSA Load  [SRI]",
+      "label": "Cumulative Effect Index  [SRI]",
       "category": "DSA Prediction"
     },
     {
       "id": "RULE_WEAK_DSA_RISK_001",
-      "label": "Weak DSA Risk  [SRI]",
+      "label": "Subthreshold DSA Risk Flag  [SRI]",
       "category": "DSA Prediction"
     },
     {
       "id": "RULE_TEMPORAL_DSA_PARTITION_001",
-      "label": "Temporal DSA Partition  [TPI]",
+      "label": "Current vs. Historical DSA  [TPI]",
       "category": "Temporal"
     },
     {
